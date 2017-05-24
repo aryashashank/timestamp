@@ -8,6 +8,6 @@ app.get("/", function(req, res){
 	res.end("Hello, World");
 });
 
-app.listen(process.env.PORT || <default port>, function(){
+app.listen(process.env.PORT || 8080, function(){
 	console.log("Listening on port 8080");
 });
